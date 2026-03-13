@@ -1,7 +1,3 @@
-##################################################
-#        TBS Business Analytics class 7          #
-##################################################
-
 # Load the dataset
 credit.data <- read.csv2('CreditScoring.csv', na.strings = "", stringsAsFactors = TRUE)
 str(credit.data)
